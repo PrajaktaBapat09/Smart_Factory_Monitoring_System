@@ -8,6 +8,7 @@ Problem Statement:
 4) Reactive Maintenance: Without data trends, factories rely on breakdown-based maintainence, increasing downtime and costs.
 
 Proposed Solution for the system:
+
 This project is a multi-node IoT system using Arduino Uno boards and sensor system comprosing of various sensors like temperature, humidity, PIR, light sensor to monitor the production line (machine) conditions as well as the warehouse (item) conditions.
 Each node collects data and sends it through Ethernet via MQTT protocol. The data is then processed on Thingsboard Platform, where it is displayed on a web dashboard.
 The system allows live monitoring of data, alerts for threshold breaches and remote control of devices. Overall, the system provides real time monitoring, alerts and basic automation.
