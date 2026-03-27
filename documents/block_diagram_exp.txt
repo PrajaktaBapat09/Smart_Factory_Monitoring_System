@@ -1,0 +1,1 @@
+The initial design was based on Ethernet communication as per internship training. For real hardware implementation, the system was adapted to use ESP8266 WiFi module for improved flexibility and wireless connectivity.
